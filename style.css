@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+a:visited {
+  color: green;
+}
+
+.logo {
+  height: 256px;
+  width: 256px;
+  border-radius: 3px;
+  border: 2px solid green;
+}
+
+.shop {
+  background-color: green;
+  text-decoration: none;
+  color: white !important;
+  padding: 13px;
+  border-radius: 2px;
+}
+.shop:hover {
+  background-color: darkgreen;
+}
