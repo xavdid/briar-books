@@ -1,35 +1,41 @@
+:root {
+  --highlight-color: rgb(106, 175, 106);
+  --background-color: lemonchiffon;
+  --hover-color: green;
+}
+
 body {
   text-align: center;
   font-family: sans-serif;
-  background-color: lightgrey;
+  background-color: var(--background-color);
 }
 
 a {
-  color: green;
+  color: var(--highlight-color);
 }
 
 a:hover {
-  color: darkgreen;
+  color: var(--hover-color);
 }
 
 a:visited {
-  color: green;
+  color: var(--highlight-color);
 }
 
 .logo {
   height: 256px;
   width: 256px;
   border-radius: 3px;
-  border: 2px solid green;
+  border: 2px solid var(--highlight-color);
 }
 
 .shop {
-  background-color: green;
+  background-color: var(--highlight-color);
   text-decoration: none;
   color: white !important;
   padding: 13px;
   border-radius: 2px;
 }
 .shop:hover {
-  background-color: darkgreen;
+  background-color: var(--hover-color);
 }
